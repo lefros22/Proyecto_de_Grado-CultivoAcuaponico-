@@ -5,6 +5,6 @@ This folder contains the documentation of the management system
 
 -Description of each script
 
--script codes
+-Script codes
 
 -Service codes
