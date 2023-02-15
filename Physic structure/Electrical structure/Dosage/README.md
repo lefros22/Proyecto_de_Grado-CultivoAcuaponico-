@@ -1,1 +1,0 @@
-# Proyecto_de_Grado-CultivoAcuaponico-
