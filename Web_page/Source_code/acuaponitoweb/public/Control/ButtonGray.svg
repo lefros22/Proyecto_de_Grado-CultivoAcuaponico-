@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="117.14797229999988" height="115.4367418" viewBox="811.1003986000001 44.65162910000001 117.14797229999988 115.4367418" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(-0.93 0 0 0.93 870.53 102.37)" id="TW3eDle-M71QQDVlXHYnj"  >
+<radialGradient id="SVGID_0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -61.53 -61.53)"  cx="62.50915817720954" cy="59.557073170339606" r="81.30103407136829" fx="62.50915817720954" fy="59.557073170339606">
+<stop offset="0%" style="stop-color:#FFFFFF;stop-opacity: 0.4"/>
+<stop offset="62.304374105506696%" style="stop-color:#7E7E7E;stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:#000000;stop-opacity: 1"/>
+</radialGradient>
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -61.52513 C 33.96187 -61.52513 61.52513 -33.96187 61.52513 0 C 61.52513 33.96187 33.96187 61.52513 0 61.52513 C -33.96187 61.52513 -61.52513 33.96187 -61.52513 0 C -61.52513 -33.96187 -33.96187 -61.52513 0 -61.52513 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.78 0 0 0.78 867.53 101.03)" id="nMGyAckT7s1DCPVO8hlwG"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(155,155,155); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -61.52513 C 33.96187 -61.52513 61.52513 -33.96187 61.52513 0 C 61.52513 33.96187 33.96187 61.52513 0 61.52513 C -33.96187 61.52513 -61.52513 33.96187 -61.52513 0 C -61.52513 -33.96187 -33.96187 -61.52513 0 -61.52513 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.78 0 0 0.78 859.59 97.1)" id="_0AbTWdKT9PaeJ-GeKFcT"  >
+<radialGradient id="SVGID_1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -61.53 -61.53)"  cx="61.52512984158636" cy="61.52512984158623" r="61.52512984158636" fx="61.52512984158636" fy="61.52512984158623">
+<stop offset="0%" style="stop-color:#8C8A8A;stop-opacity: 1"/>
+<stop offset="79.57286952868128%" style="stop-color:#B0ADAD;stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:#DFD7D7;stop-opacity: 1"/>
+</radialGradient>
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_1); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -61.52513 C 33.96187 -61.52513 61.52513 -33.96187 61.52513 0 C 61.52513 33.96187 33.96187 61.52513 0 61.52513 C -33.96187 61.52513 -61.52513 33.96187 -61.52513 0 C -61.52513 -33.96187 -33.96187 -61.52513 0 -61.52513 z" stroke-linecap="round" />
+</g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24.653853731070193" height="24.653853731069916" viewBox="304.7399987344649 137.3949175488292 24.653853731070193 24.653853731069916" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(0.82 0 0 0.82 317.07 149.72)" id="nAoJLy3PMROGaWtX3C0Cs"  >
+<radialGradient id="SVGID_717" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -14.42 -14.42)"  cx="14.423081543335456" cy="14.423081543335329" r="14.482897649944903" fx="14.423081543335456" fy="14.423081543335329">
+<stop offset="0%" style="stop-color:#FFFFFF;stop-opacity: 1"/>
+<stop offset="37.85499801642558%" style="stop-color:#FA636B;stop-opacity: 1"/>
+<stop offset="69.97480512424201%" style="stop-color:#FF0000;stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:#A50B0B;stop-opacity: 1"/>
+</radialGradient>
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_717); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -14.42308 C 7.96154 -14.42308 14.42308 -7.96154 14.42308 0 C 14.42308 7.96154 7.96154 14.42308 0 14.42308 C -7.96154 14.42308 -14.42308 7.96154 -14.42308 0 C -14.42308 -7.96154 -7.96154 -14.42308 0 -14.42308 z" stroke-linecap="round" />
+</g>
+</svg>

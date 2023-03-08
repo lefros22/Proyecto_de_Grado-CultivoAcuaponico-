@@ -1,0 +1,26 @@
+.mVariableButton{
+  background-color: transparent;
+  border: 0;
+ 
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: 550;
+}
+
+.mVariableButton:hover {
+  cursor: pointer;
+}
+
+.mVariableButton-text {
+  color: white;
+  text-decoration: none;
+}
+
+.mVariableButton-text-active {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 750;
+}
+.mVariableButton-text:hover {
+  color: black;
+}

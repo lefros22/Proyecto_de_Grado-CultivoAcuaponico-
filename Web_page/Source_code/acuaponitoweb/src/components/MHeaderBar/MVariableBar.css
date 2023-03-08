@@ -1,0 +1,20 @@
+
+
+.mVariableBar-navbar {
+  background-color: #575757;
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  padding: 8px 35px 8px 50px;
+  max-width: 100%;
+}
+
+.mVariableBar-Container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  padding-top: 10px;
+  width: 100%;
+}
+

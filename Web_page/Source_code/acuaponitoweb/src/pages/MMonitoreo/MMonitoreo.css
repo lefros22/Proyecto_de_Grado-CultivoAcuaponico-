@@ -1,0 +1,42 @@
+.monitoreo-component-aling{
+    
+    display: flex;
+    flex-direction: row;
+    
+    padding-top: 40px;
+    padding-right:90px ;
+
+  }
+.monitoreo-component-image{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30%;
+  }
+.monitoreo-container-component-image{
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+.monitoreo-component-text{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+    line-height: 10px;
+    width: 40%;
+    padding-left: 40px;
+    font-size: larger;
+    font-weight: 25;
+    color: black;
+    
+  }
+
+.monitoreo-video{
+  align-items: center;
+}

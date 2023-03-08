@@ -1,0 +1,96 @@
+.mLoginRegister-action-button {
+  background-color: #0c016a;
+  border: 0;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  height: 50px;
+  width: 80%;
+}
+
+.mLoginRegister-action-button:hover {
+  cursor: pointer;
+}
+
+.mLoginRegister-action-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 3px 0px;
+  width: 100%;
+}
+
+.mLoginRegister-button {
+  background-color: #e6e5ea;
+  border: 0;
+  font-size: larger;
+  font-weight: bold;
+  color: #0154ba;
+  height: 60px;
+  width: 100%;
+}
+
+.mLoginRegister-logo {
+  background-color: #64bcf3;
+  border: 0;
+  font-size: larger;
+  font-weight: bold;
+  color: #0154ba;
+  height: 250px;
+  width: 100%;
+}
+
+.mLoginRegister-button:hover {
+  cursor: pointer;
+}
+
+.mLoginRegister-button-selected {
+  background-color: white;
+  color: #0154ba;
+}
+
+.mLoginRegister-container {
+  background-color: white;
+  border: 1px solid gray;
+  width: 450px;
+}
+
+.mLoginRegister-input {
+  background-color: #e6e5ea;
+  border: 0;
+  box-sizing: border-box;
+  display: block;
+  font-size: large;
+  height: 55px;
+  margin: 15px 0px;
+  width: 100%;
+  padding-left: 11px;
+}
+
+.mLoginRegister-input:focus {
+  outline: none;
+}
+
+.mLoginRegister-input-container {
+  box-sizing: border-box;
+  padding: 15px;
+  width: 100%;
+}
+
+.mLoginRegister-password-help {
+  background-color: transparent;
+  border: 0;
+  color: gray;
+  font-size: medium;
+  font-weight: bold;
+  padding: 0;
+}
+
+.mLoginRegister-password-help:hover {
+  cursor: pointer;
+}
+
+.mLoginRegister-password-help-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}

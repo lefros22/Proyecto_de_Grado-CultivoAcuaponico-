@@ -1,0 +1,33 @@
+.home-mLoginRegister-container {
+    width:40%;
+   
+    /*display: flex;
+    min-height: calc(100vh - 65px);
+    justify-content: right;
+    background-color:#96B23B;*/
+    align-items: center;
+    padding-left: 80px;
+   
+
+    padding-top: 5%;
+
+    padding-bottom: 8%;
+
+    margin: auto;
+    margin-left: 60%;
+    
+    
+  }
+
+
+.back{
+  
+  background-color: blue;
+  background-image: url('/public/backgroundP.jpg');
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

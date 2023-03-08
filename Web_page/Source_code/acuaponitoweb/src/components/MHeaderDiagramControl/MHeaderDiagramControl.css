@@ -1,0 +1,239 @@
+.mHeaderDiagramControl {
+    position: absolute;
+}
+.background{
+    
+    position: absolute;
+    
+}
+.Actuator{
+
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.Actuator:active{
+    transform: scale(0.95);
+}
+
+
+.Object{
+    
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.text{
+    line-height: 20px;
+    font-weight: 400;
+    font-size:large;
+}
+
+.posText1{
+    top: 185px;
+    left: 90px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posText2{
+    top: 185px;
+    left: 190px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posText3{
+    top: 195px;
+    left: 290px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+
+.Button{
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Button:active{
+    transform: scale(0.95);
+}
+
+
+
+
+.posValve1v{
+    top: 90px;
+    left: 397px;
+    right: 0px;
+    bottom: 0px;
+}
+.posValve2v{
+    top: 90px;
+    left: 583px;
+    right: 0px;
+    bottom: 0px;
+}
+.posValve3v{
+    top: 206px;
+    left: 397px;
+    right: 0px;
+    bottom: 0px;
+}
+.posValve4v{
+    top: 206px;
+    left: 583px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posValve1{
+    top: 337px;
+    left: 555px;
+    right: 0px;
+    bottom: 0px;
+}
+.posValveIn{
+    top: 328px;
+    left: 58px;
+    right: 0px;
+    bottom: 0px;
+}
+.posValve2{
+    top: 412px;
+    left: 404px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posHumidifer1{
+    top: 18px;
+    left: 475px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posHumidifer2{
+    top: 140px;
+    left: 475px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posLamp1{
+    top: 18px;
+    left: 535px;
+    right: 0px;
+    bottom: 0px;
+}
+.posLamp2{
+    top: 140px;
+    left: 535px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posPeristalticPump1{
+    top: 254px;
+    left: 473px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posPeristalticPump2{
+    top: 294px;
+    left: 473px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posWaterPump1{
+    top: 262px;
+    left: 310px;
+    right: 0px;
+    bottom: 0px;
+}
+.posWaterPump2{
+    top: 315px;
+    left: 310px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.posFan{
+    top: 365px;
+    left: 175px;
+    right: 0px;
+    bottom: 0px;
+}
+.posFeeder{
+    top: 365px;
+    left: 106px;
+    right: 0px;
+    bottom: 0px;
+}
+.posAirPump{
+    top: 422px;
+    left: 30px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.posButtonGray1{
+    top: 130px;
+    left: 80px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posButtonGray2{
+    top: 130px;
+    left: 180px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posButtonRed{
+    top: 130px;
+    left: 280px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.posLED1{
+    top: 90px;
+    left: 110px;
+    right: 0px;
+    bottom: 0px;
+}
+.posLED2{
+    top: 90px;
+    left: 210px;
+    right: 0px;
+    bottom: 0px;
+}
+.posLED3{
+    top: 90px;
+    left: 310px;
+    right: 0px;
+    bottom: 0px;
+}

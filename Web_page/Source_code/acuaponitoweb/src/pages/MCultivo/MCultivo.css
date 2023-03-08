@@ -1,0 +1,23 @@
+.cultivo-component-aling{
+    align-items: center;
+    display: flex;
+    
+    justify-content: center;
+    padding: 10px;
+  }
+.cultivo-component-image{
+    align-items: center;
+    padding-right: 200px;
+  }
+.cultivo-component-text{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: 0;
+    
+    width: 50%;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 40;
+    color: black;
+  }

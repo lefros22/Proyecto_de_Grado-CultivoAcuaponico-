@@ -1,0 +1,28 @@
+props.to ?
+          <Link to={props.to} className='mHeaderButton-text'>
+            {props.buttonName}
+          </Link>
+          :
+
+
+function Home() {
+    const[showLogin, setShowLogin]= useState(false);
+  
+    function onLoginButtonClicked() {
+        console.log("on login click en app");
+        const newShowLogin=!showLogin
+        setShowLogin(newShowLogin);
+    }
+    return(
+        <div>
+        <MHeaderBar onHeaderBarLoginClicked={()=>{onLoginButtonClicked()}}/>
+        { showLogin ?
+            <div className='app-mLoginRegister-container'>
+            <MLoginRegister/>
+            </div>
+            :
+            null
+        }
+        </div>
+    );
+}

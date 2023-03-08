@@ -1,0 +1,26 @@
+.mHeaderBar-logo {
+  height: auto;
+  width: auto;
+}
+
+.mHeaderBar-navbar {
+  background-color: #0c016a;
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  padding: 0px 35px 0px 50px;
+  max-width: 100%;
+}
+
+.mHeaderBar-leftContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  width: 68%;
+}
+
+.mHeaderBar-rightContainer {
+  display: flex;
+  height: 65px;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="115.43674180000005" height="115.43674180000002" viewBox="994.9816291 208.12162909999995 115.43674180000005 115.43674180000002" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(-0.93 0 0 0.93 1052.7 265.84)" id="1t_Mqm7nR6n8mRr0Vb3Hb"  >
+<radialGradient id="SVGID_7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -61.53 -61.53)"  cx="62.50915817720954" cy="59.557073170339606" r="81.30103407136829" fx="62.50915817720954" fy="59.557073170339606">
+<stop offset="0%" style="stop-color:#FFFFFF;stop-opacity: 0.4"/>
+<stop offset="62.304374105506696%" style="stop-color:#7E7E7E;stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:#000000;stop-opacity: 1"/>
+</radialGradient>
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_7); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -61.52513 C 33.96187 -61.52513 61.52513 -33.96187 61.52513 0 C 61.52513 33.96187 33.96187 61.52513 0 61.52513 C -33.96187 61.52513 -61.52513 33.96187 -61.52513 0 C -61.52513 -33.96187 -33.96187 -61.52513 0 -61.52513 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.78 0 0 0.78 1051.69 265.84)" id="CmpciTIh-ZpFarzjfS_ye"  >
+<radialGradient id="SVGID_8" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -61.53 -61.53)"  cx="-15.131315807225661" cy="60.414167017286616" r="149.69102866030832" fx="-15.131315807225661" fy="60.414167017286616">
+<stop offset="0%" style="stop-color:#000000;stop-opacity: 1"/>
+<stop offset="6.540267968754929%" style="stop-color:#7E7E7E;stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:#000000;stop-opacity: 1"/>
+</radialGradient>
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_8); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -61.52513 C 33.96187 -61.52513 61.52513 -33.96187 61.52513 0 C 61.52513 33.96187 33.96187 61.52513 0 61.52513 C -33.96187 61.52513 -61.52513 33.96187 -61.52513 0 C -61.52513 -33.96187 -33.96187 -61.52513 0 -61.52513 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(-0.77 0 0 0.77 1050.58 265.05)" id="_Va7JRa8LUxyk8pWLGTVN"  >
+<radialGradient id="SVGID_9" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -61.53 -61.53)"  cx="-15.131315807225661" cy="60.414167017286616" r="149.69102866030832" fx="-15.131315807225661" fy="60.414167017286616">
+<stop offset="0%" style="stop-color:#EC0000;stop-opacity: 1"/>
+<stop offset="9.243941087070219%" style="stop-color:#5D0000;stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:#FF0000;stop-opacity: 1"/>
+</radialGradient>
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_9); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -61.52513 C 33.96187 -61.52513 61.52513 -33.96187 61.52513 0 C 61.52513 33.96187 33.96187 61.52513 0 61.52513 C -33.96187 61.52513 -61.52513 33.96187 -61.52513 0 C -61.52513 -33.96187 -33.96187 -61.52513 0 -61.52513 z" stroke-linecap="round" />
+</g>
+</svg>

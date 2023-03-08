@@ -1,0 +1,23 @@
+.mHeaderButton {
+  background-color: transparent;
+  border: 0;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: 550;
+}
+
+.mHeaderButton:hover {
+  cursor: pointer;
+}
+
+.mHeaderButton-text {
+  color: white;
+  text-decoration: none;
+}
+.mHeaderButton-text-active {
+  color: #00e3f3;
+  text-decoration: none;
+}
+.mHeaderButton-text:hover {
+  color: #00e3f3;
+}

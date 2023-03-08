@@ -1,0 +1,47 @@
+.control-component{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding: 10px 55px 0px 20px;
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.control-component-aling{
+    
+    
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 60%;
+    background-color: transparent;
+  }
+.control-component-image{
+    align-items: center;
+    padding: 10px;
+  }
+.control-container-component-image{
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+.control-component-mensajes-text{
+    padding-left: 10px;
+    font-weight: 500;
+    
+    font-size:x-large;
+  }
+.control-component-mensajes-block{
+    padding-top: 5px;
+  }
+.control-component-mensajes{
+    padding: 10px 10px 10px 10px;
+    height: 520px;
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }

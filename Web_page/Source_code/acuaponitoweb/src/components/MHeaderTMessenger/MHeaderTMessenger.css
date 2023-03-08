@@ -1,0 +1,16 @@
+.MHeaderTMessenger{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: space-between;
+    border: 5px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #d3d3d3;
+    
+  }
+
+.MHeaderTMessenger_Message{
+    padding-bottom: 0px;
+  }
+

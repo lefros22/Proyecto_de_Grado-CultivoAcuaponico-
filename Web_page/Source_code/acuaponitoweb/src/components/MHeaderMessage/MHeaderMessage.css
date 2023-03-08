@@ -1,0 +1,28 @@
+.mHeaderMessage {
+    border: 5px solid rgb(99, 95, 95);
+    border-radius: 15px;
+    
+    
+    color: rgb(22, 20, 20);
+    text-decoration: none;
+
+    padding-left: 8px;
+    padding-top:5px;
+    padding-bottom: 5px;
+  }
+.mHeaderMessage-Head {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+.mHeaderMessage-Body {
+    font-weight: 200;
+    padding-top: 1px;
+    font-size: 20px;
+  }
+.mHeaderMessage-Text {
+    padding-right: 10px;
+    height: 40px;
+    font-weight: 550;
+  }
