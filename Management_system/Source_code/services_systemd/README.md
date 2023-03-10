@@ -2,7 +2,7 @@
 
 This folder contains the config files of systemd services 
 
-## basic commands
+## Basic commands
 
 ### ------to the daemon--------
 ### `cd /etc/systemd/system`
@@ -18,7 +18,7 @@ This folder contains the config files of systemd services
 ### `sudo systemctl stop [name service].service` optional to kill service running
 ### `sudo systemctl disable [name service].service` optional to disable service running
 
-## basic daemon or service
+## Basic daemon or service
 
 ``` bash
 [Unit]
