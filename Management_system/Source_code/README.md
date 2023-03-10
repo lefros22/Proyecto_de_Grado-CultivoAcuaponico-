@@ -10,7 +10,7 @@ folders:
 
 - **service crontab:** the linux command for services in crontab
 
-## Explanation of each of the services
+## Explanation of each of solution
 
 ### services executed with crontab
 - Webcam: takes twenty photos, one photo every three seconds, and stores it in ram (Managed by crontab, runs it every minute).
@@ -61,4 +61,7 @@ folders:
 - **Captura.jpg:** image corresponding to the photo captured by the camera
 - **statusInternet:** value corresponding to the internet status
 
+## ADDITIONAL
 
+### How to mount a space in ram
+### `sudo mount -t tmpfs -o rw,size=30m tmpfs [full_path]` Replace "full_path" with the exact path where you want the ram folder, not including the "[]", also you can change the size in size, actual size is 30mb in the command
