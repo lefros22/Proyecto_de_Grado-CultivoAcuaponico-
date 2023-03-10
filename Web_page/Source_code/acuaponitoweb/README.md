@@ -83,4 +83,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### `firebase init`  (select only hosting for static pages)
 
-### `firebase deploy --only hosting`
+### `firebase deploy --only hosting`(remember previus build)
