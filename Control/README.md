@@ -1,6 +1,11 @@
 # RN
+Here is located the notebooks used for the development of the project
 
--Notebook entrenamiento red
-- Notebook limpia de datos
-- notebook matriz correlacion
-- Notebook validacion control
+## RN
+- Net training notebook
+- Data clean notebook
+## Validations
+- Correlation Matrix Notebook
+- Notebook validation control
+## Fuzzy
+- Fuzzy Control Notebook
