@@ -1,5 +1,5 @@
 # Control
-Here is located the notebooks used for the development of the project
+Here is located the notebooks used for the development of the project and the data used
 
 ## Description of control sistem:
 la la la la
