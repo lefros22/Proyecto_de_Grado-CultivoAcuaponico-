@@ -1,1 +1,1 @@
-{"-NMqJRiPBFEiSx_3ViEJ":{"fecha":"01/27/2023, 22:00:33","tipo":"Ligth","valor":"0.02824858757062147"}}
+{"-NQ8Scs-HVyAG8B3ZJ8Q":{"fecha":"03/09/2023, 22:00:35","tipo":"Ligth","valor":"2.5"}}

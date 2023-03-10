@@ -4,13 +4,9 @@ import paho.mqtt.client as mqtt  #import the client1
 import time
 import json
 import pyrebase
+import subprocess as sp
+config = json.loads(sp.getoutput('cat firebase-credentials.json'))
 
-config = {
-"apiKey": "AIzaSyBv1jfvRCuRGuXm4BH71wqHRC8R1LS8Tas",
-"authDomain": "pg-web-page",
-"databaseURL": "https://pg-web-page-default-rtdb.firebaseio.com/",
-"storageBucket": "project-1396921858"
-}
 
 firebase = pyrebase.initialize_app(config)
 database = firebase.database()

@@ -6,9 +6,15 @@ import subprocess as sp
 import os
 import threading
 #mod control
-import Control_OnOff
+import Control_module
 
-#import Cotrol_Predictivo
+#messages
+genericoOnOFF =  '{ "Tipo":"generico", "Descripcion":"control On/off funcionando"}'
+genericoPredictivo =  '{ "Tipo":"generico", "Descripcion":"control Predictivo funcionando"}'
+
+genericoNuevoCiclo =  '{ "Tipo":"generico", "Descripcion":"inicio Nuevo ciclo"}'
+
+genericoDosificacion =  '{ "Tipo":"generico", "Descripcion":"se dosifica alimento"}'
 
 
 #Funciones de ciclo
@@ -128,6 +134,7 @@ def circulacion_agua(pa,po):
 def dosificar(ci):
     if ci in (5,7,8,9,10):
         os.system('mosquitto_pub -h localhost -t "esp32/input" -m "Dosificar"')
+        os.system("mosquitto_pub -h localhost -t 'main/mensajes' -m '"+genericoDosificacion+"'")
 
 def apagarsensor():
     global Val_Actuadores
@@ -173,6 +180,8 @@ ciclo=ciclo_dia()
 ciclo_anterior=ciclo-1
 actuadores_act='0'
 actuadores_ant='1'
+
+
 while True:
     sleep(0.2)
 
@@ -183,14 +192,27 @@ while True:
         actuadores_act=sp.getoutput("cat Ram_Var/actuadores.txt")
         #print(actuadores_act,Val_Actuadores["WaterPump1"])
     elif EstateControl == 'Automatico':
-        
+        estado_internet=sp.getoutput("cat Ram_Var/statusInternet")
+        #sobre escribiendo para que se active el on off
+        estado_internet='OFF'
         if cambio_ciclo:
+            os.system("mosquitto_pub -h localhost -t 'main/mensajes' -m '"+genericoNuevoCiclo+"'")
             reinicio_variables()
             sensar()
             dosificar(ciclo)
-        #activacion_acciones_porcentaje(Control_OnOff.Porcentajes(ciclo))
-        activacion_acciones_porcentaje(Control_OnOff.get_Porcentajes_predictivo())
-        #print(Control_OnOff.Porcentajes())
+            if estado_internet=='ON':os.system("mosquitto_pub -h localhost -t 'main/mensajes' -m '"+genericoPredictivo+"'")
+            else: os.system("mosquitto_pub -h localhost -t 'main/mensajes' -m '"+genericoOnOFF+"'")
+            
+            
+        
+        if estado_internet=="ON":
+            activacion_acciones_porcentaje(Control_module.get_Porcentajes_predictivo())
+        else:
+            activacion_acciones_porcentaje(Control_module.Porcentajes(ciclo))
+        
+        #activacion_acciones_porcentaje(Control_module.Porcentajes(ciclo))
+        #activacion_acciones_porcentaje(Control_module.get_Porcentajes_predictivo())
+        #print(Control_module.Porcentajes())
         actuadores_act=json.dumps(Val_Actuadores)
         #print(actuadores_act,Val_Actuadores["WaterPump1"])
     elif EstateControl == 'Pemergencia':

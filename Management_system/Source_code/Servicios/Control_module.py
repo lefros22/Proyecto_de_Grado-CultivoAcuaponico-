@@ -39,22 +39,22 @@ def Porcentajes(ciclo):
         x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.99,"porc_aireacion":  0}
     #08:00-10:00
     elif ciclo ==  5:
-        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.99,"porc_aireacion":  0}
+        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.99,"porc_aireacion":  0.99}
     #10:00-12:00
     elif ciclo ==  6:
-        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.2,"porc_aireacion":  0.99}
+        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.99,"porc_aireacion":  0.99}
     #12:00-14:00
     elif ciclo ==  7:
-        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.1,"porc_aireacion":  0.99}
+        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.99,"porc_aireacion":  0.99}
     #14:00-16:00
     elif ciclo ==  8:
-        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.2,"porc_aireacion":  0.99}
+        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.99,"porc_aireacion":  0.99}
     #16:00-18:00
     elif ciclo ==  9:
-        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.1,"porc_aireacion":  0.99}
+        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.99,"porc_aireacion":  0.99}
     #18:00-20:00
     elif ciclo ==  10:
-        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.99,"porc_aireacion":  0}
+        x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.99,"porc_aireacion":  0.99}
     #20:00-22:00
     elif ciclo ==  11:
         x = {"porc_iluminacion": 0.99,"porc_humectacion": 0,"porc_circulacion": 0.99,"porc_oxigenacion": 0.99,"porc_aireacion":  0}

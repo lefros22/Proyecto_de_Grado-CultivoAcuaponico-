@@ -10,7 +10,7 @@ import os
 
 TDS_sp=250
 TEMP_sp=22
-
+set_point=np.array([TDS_sp,TEMP_sp])
 
 
 
@@ -98,7 +98,7 @@ def get_best_values(set_point,number_try,sen,ciclo_lum,rand_ciclos):
             score=score_new
             conjunto_ciclos=i
             best_y=y
-
+    print(best_y)
     return score,conjunto_ciclos,best_y
         
 
@@ -129,17 +129,18 @@ def get_ciclos_control(set_point):
     return [ciclo_lum_fuzzy,*rand_ciclos[pos_ciclos,:]],best_y
 
 def get_ciclos_predichos():
-    return get_ciclos_control(TEMP_sp)
+    set_point_temp=22
+    return get_ciclos_control(22)
 def get_Porcentajes_predictivo():
     ciclos,prediction=get_ciclos_predichos()
     x = {"porc_iluminacion": ciclos[0],"porc_humectacion": 0,"porc_circulacion":ciclos[1],"porc_oxigenacion":ciclos[2],"porc_aireacion":  ciclos[3]}
     bd_json={"ciclos":x,"predicciones":{"TDS":prediction[0,0],"temp":prediction[0,1]}}
-    os.system('mosquitto_pub -h localhost -t "Prediction/ciclos" -m '+"'"+json.dumps(bd_json)+"'")
+    os.system('mosquitto_pub -h localhost -t "Prediction/ciclos2" -m '+"'"+json.dumps(bd_json)+"'")
     #print('mosquitto_pub -h localhost -t "Prediction/ciclos" -m '+"'"+json.dumps(bd_json)+"'")
     return x
 
 
-os.system("echo " +"'"+json.dumps(get_Porcentajes_predictivo())+"'"+"> /home/acuaponito/Desktop/Servicios/Ram_Var/ciclos_pred.txt")
+os.system("echo " +"'"+json.dumps(get_Porcentajes_predictivo())+"'"+"> /home/acuaponito/Desktop/Servicios/Ram_Var/ciclos_pred2.txt")
 
 def function_probe():
     print("inicio")
