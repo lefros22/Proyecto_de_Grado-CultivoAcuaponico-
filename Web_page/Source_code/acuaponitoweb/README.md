@@ -74,13 +74,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-# YOU CAN DEPLOY EN FIREBASE HOSTING using firebase tools
+# You can deploy in firebase-hosting using firebase tools
 
 
 ## commands that you can use:
 
-### firebase login
+### `firebase login`
 
-### firebase init  (select only hosting for static pages)
+### `firebase init`  (select only hosting for static pages)
 
-### firebase deploy --only hosting
+### `firebase deploy `--only hosting
