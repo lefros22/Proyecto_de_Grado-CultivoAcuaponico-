@@ -31,7 +31,7 @@ folders:
 - **LightSensor_service:** reads the result of an I2C luminosity sensor every minute and publishes the average of the measurement every two hours in the topic “Main/sensorExr/Ligth”.
 - **ControlModerno:** it is a service of the execution type with a timer which is executed automatically every two hours and makes the prediction of the best combination of stimuli for the next interval, which writes in Ram ("Ram_Var/ciclos_pred.txt") and sends a message to the topic “PredictionsBD”.
 
-#### Major
+#### Main
 - **MainControl:** is the main service that reads variables stored in RAM and publishes to MQTT using commands with the subsystem library. It manages the ignition of the actuators depending on the time of day and also manages the measurement and dosage of feed. This service implements two threads, one for water circulation and the other for sensing. Additionally, depending on the internet connectivity, it activates the ON/OFF control as an emergency system, since the predictive needs information from the internet.
 #### Others
 - **PinesActuators:** it subscribes to the "main/actuatuadores" topic, it manages a JSON that contains the status that each actuator must have and when it receives a message, it updates the status that was sent to it in the GPIO ports.
