@@ -21,7 +21,7 @@ This folder contains the config files of systemd services
 #### `sudo systemctl stop [name service].service` optional to kill service running
 #### `sudo systemctl disable [name service].service` optional to disable service running
 
-## Basic daemon or service
+## Basic daemon or service(example)
 
 ``` bash
 [Unit]
