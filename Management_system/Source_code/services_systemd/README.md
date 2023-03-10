@@ -7,6 +7,9 @@ This folder contains the config files of systemd services
 ### ------to the daemon--------
 ### `cd /etc/systemd/system`
 
+### ------List the daemons--------
+### `ls`
+
 ### ---- comands to mount a daemon---
 ### `sudo nano [name service].service` to create the service file
 ### `chmod +x /home/acuaponito/Desktop/Servicios/MainControl_service.py` give execution permissions to the script that will execute the service
