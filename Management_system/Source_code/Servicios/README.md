@@ -1,7 +1,10 @@
 #Here you can find all the scripts used for the automation system in the management system component
+you can check in the last README the explanation of all files here.
 
-## Mount in ram
 
+## Mount a space in ram
+Replace "full_path" with the exact path where you want the ram folder, not including the "[]", also you can change the size in size, actual size is 30mb in the command
+### `sudo mount -t tmpfs -o rw,size=30m tmpfs [full_path]` 
 ## firebase credentials
 This project use a realtime firebase to save all data, in some scripts you can see the next code-line:
 
