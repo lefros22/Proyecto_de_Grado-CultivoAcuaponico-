@@ -1,0 +1,14 @@
+[Unit]
+Description=send predictions actions control to bd
+After=multi-user.target network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/acuaponito/Desktop/Servicios/PredictionsBD_service.py
+User=acuaponito
+WorkingDirectory=/home/acuaponito/Desktop/Servicios
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+

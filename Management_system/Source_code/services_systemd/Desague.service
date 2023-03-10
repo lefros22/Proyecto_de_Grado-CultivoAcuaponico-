@@ -1,0 +1,13 @@
+[Unit]
+Description=sense desague sensor and send to topic and ram
+After=multi-user.target network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/acuaponito/Desktop/Servicios/Desague_service.py
+User=acuaponito
+WorkingDirectory=/home/acuaponito/Desktop/Servicios
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

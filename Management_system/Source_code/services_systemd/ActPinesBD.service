@@ -1,0 +1,13 @@
+[Unit]
+Description=SEND the changes in actuator pines to bd
+After=multi-user.target network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/acuaponito/Desktop/Servicios/ActPinesBD_service.py
+User=acuaponito
+WorkingDirectory=/home/acuaponito/Desktop/Servicios
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

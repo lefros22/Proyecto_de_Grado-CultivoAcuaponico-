@@ -1,0 +1,13 @@
+[Unit]
+Description=Send state control of bd to ram archive
+After=multi-user.target network.target
+
+[Service]
+Type=simple
+ExecStart=/home/acuaponito/Desktop/Servicios/EstadoControl_service.py
+User=acuaponito
+WorkingDirectory=/home/acuaponito/Desktop/Servicios
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

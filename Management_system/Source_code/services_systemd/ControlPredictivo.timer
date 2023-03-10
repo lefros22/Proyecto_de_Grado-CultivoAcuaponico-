@@ -1,0 +1,9 @@
+[Unit]
+Description=run my script
+
+[Timer]
+OnCalendar=*-*-* 00/2:3:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
