@@ -1,5 +1,8 @@
-# RN
+# Control
 Here is located the notebooks used for the development of the project
+
+## Description of control sistem:
+la la la la
 
 ## RN
 - Net training notebook
