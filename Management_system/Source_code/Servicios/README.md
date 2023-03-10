@@ -1,5 +1,7 @@
-#Here you can find all the scripts used for the automation system in the management system component
-you can check in the last README the explanation of all files here.
+#  Scripts and files of the management system
+
+Here you can find all the scripts used for the automation system in the management system component,
+also you can check in the last README the explanation of all files here.
 
 
 ## Mount a space in ram
