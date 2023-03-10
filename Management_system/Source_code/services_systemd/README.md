@@ -38,3 +38,5 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 ```
+## Notes
+In this folder we have one service timer, check in internet what is
