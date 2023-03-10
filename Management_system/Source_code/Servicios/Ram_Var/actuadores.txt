@@ -1,0 +1,1 @@
+{"AirPump": true, "Fan": false, "Feeder": false, "Humidifer1": false, "Humidifer2": false, "Lamp1": false, "Lamp2": false, "Peristaltic1": false, "Peristaltic2": false, "SensoresVcc": false, "Valve1": false, "Valve2": false, "ValveIn": false, "WaterPump1": false, "WaterPump2": false}

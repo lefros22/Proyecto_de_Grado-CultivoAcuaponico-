@@ -1,0 +1,1 @@
+{"porc_iluminacion": 0.003333333333333333, "porc_humectacion": 0, "porc_circulacion": 0.24, "porc_oxigenacion": 0.98, "porc_aireacion": 0.13}
