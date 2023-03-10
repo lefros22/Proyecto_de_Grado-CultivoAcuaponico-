@@ -8,3 +8,6 @@ This folder contains the documentation of the management system
 - Script codes
 
 - Service codes
+
+
+![My Image]("Architecture of Solution.png")
