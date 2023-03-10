@@ -10,4 +10,4 @@ This folder contains the documentation of the management system
 - Service codes
 
 
-![My Image]("Architecture of Solution.png")
+![My Image](Architecture_of_Solution.png)
