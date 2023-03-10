@@ -64,4 +64,5 @@ folders:
 ## ADDITIONAL
 
 ### How to mount a space in ram
-### `sudo mount -t tmpfs -o rw,size=30m tmpfs [full_path]` Replace "full_path" with the exact path where you want the ram folder, not including the "[]", also you can change the size in size, actual size is 30mb in the command
+Replace "full_path" with the exact path where you want the ram folder, not including the "[]", also you can change the size in size, actual size is 30mb in the command
+#### `sudo mount -t tmpfs -o rw,size=30m tmpfs [full_path]` 
