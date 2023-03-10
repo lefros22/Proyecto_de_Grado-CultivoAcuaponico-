@@ -1,5 +1,5 @@
 # RN
-
--Notebook entrenamiento red
-- Notebook limpia de datos
+Here you can see the notebooks used for the generation of models
+- Notebook Red training
+- Notebook Clean Data
 
