@@ -66,23 +66,23 @@ This folder contains the source code of the management system and the services f
 
 #### For Raspberry:
 
-- Mosquitto-broker: used to set the raspberry pi as a bróker mqtt 
+- **Mosquitto-broker:** used to set the raspberry pi as a bróker mqtt 
   - https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/
 
-- Mosquitto-client: used to set the raspberry pi as a client mqtt
+- **Mosquitto-client:** used to set the raspberry pi as a client mqtt
   - https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/
 
-- fswebcam: used to take photos from usb camera in webcam.sh
+- **fswebcam:** used to take photos from usb camera in webcam.sh
 
 #### For python:
 
-- paho.mqtt.client: used for suscribe and create a client in python script
-- pyrebase: used for make the conection to bd firebase-realtime
+- **paho.mqtt.client:** used for suscribe and create a client in python script
+- **pyrebase:** used for make the conection to bd firebase-realtime
   - https://github.com/thisbejim/Pyrebase
-- DateTime: used to get the current time and convert between date formats
-- rpi.gpio: used to control the gpios of the raspberry and control the elements of action.
+- **DateTime:** used to get the current time and convert between date formats
+- **rpi.gpio:** used to control the gpios of the raspberry and control the elements of action.
   - https://www.raspberrypi-spy.co.uk/2012/05/install-rpi-gpio-python-library/
-- smbus2: used to read the measurement of the brightness sensor BH1750
+- **smbus2:** used to read the measurement of the brightness sensor BH1750
   - [https://www.pololu.com/docs/0J73/15.9](https://www.pololu.com/docs/0J73/15.9)
 
 ### How to mount a space in ram
