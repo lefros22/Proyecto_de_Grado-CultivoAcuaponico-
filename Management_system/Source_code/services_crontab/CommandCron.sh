@@ -1,6 +1,6 @@
 #system reboot at 00:15 every day
 15 0 * * * /sbin/shutdown -r now
-#restart of services that use token in database
+#restart every 2 hours the services that use token in database
 20 */2 * * * sudo systemctl restart EstadoControl.service
 20 */2 * * * sudo systemctl restart EstadoActuadores.service
 20 */2 * * * sudo systemctl restart ActPinesBD.service
