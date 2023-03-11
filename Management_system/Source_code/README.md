@@ -66,3 +66,28 @@ folders:
 ### How to mount a space in ram
 Replace "full_path" with the exact path where you want the ram folder, not including the "[]", also you can change the size in size, actual size is 30mb in the command
 #### `sudo mount -t tmpfs -o rw,size=30m tmpfs [full_path]` 
+
+
+### Libraries used in this project
+
+####For Raspberry:
+
+- Mosquitto-broker: used to set the raspberry pi as a bróker mqtt 
+  - https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/
+
+- Mosquitto-client: used to set the raspberry pi as a client mqtt
+https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/
+
+- fswebcam: used to take photos from usb camera in webcam.sh
+
+#### For python:
+
+- paho.mqtt.client: used for suscribe and create a client in python script
+- pyrebase: used for make the conection to bd firebase-realtime
+  - https://github.com/thisbejim/Pyrebase
+- pip install DateTime
+- rpi.gpio: used to control the gpios of the raspberry and control the elements of action.
+  - https://www.raspberrypi-spy.co.uk/2012/05/install-rpi-gpio-python-library/
+- smbus2: used to read the measurement of the brightness sensor BH1750
+  - [https://www.pololu.com/docs/0J73/15.9](https://www.pololu.com/docs/0J73/15.9)
+ 
