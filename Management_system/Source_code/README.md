@@ -76,7 +76,7 @@ Replace "full_path" with the exact path where you want the ram folder, not inclu
   - https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/
 
 - Mosquitto-client: used to set the raspberry pi as a client mqtt
-https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/
+  - https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/
 
 - fswebcam: used to take photos from usb camera in webcam.sh
 
