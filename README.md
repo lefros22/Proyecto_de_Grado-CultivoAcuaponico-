@@ -11,7 +11,7 @@ Authors:
 - Luis Fernando Riveros Orozco
 - Karen Yissel Marin Franco
 
-Project summary
+## Project summary
 The project is the assembly of an aquaponic crop and the implementation of an automation system using hybrid predictive control with fuzzy to control the active elements of the crop.
 
 
