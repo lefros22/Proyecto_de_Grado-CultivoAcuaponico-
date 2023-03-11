@@ -62,15 +62,9 @@ This folder contains the source code of the management system and the services f
 - **statusInternet:** value corresponding to the internet status
 
 ## ADDITIONAL
-
-### How to mount a space in ram
-Replace "full_path" with the exact path where you want the ram folder, not including the "[]", also you can change the size in size, actual size is 30mb in the command
-#### `sudo mount -t tmpfs -o rw,size=30m tmpfs [full_path]` 
-
-
 ### Libraries used in this project
 
-####For Raspberry:
+#### For Raspberry:
 
 - Mosquitto-broker: used to set the raspberry pi as a bróker mqtt 
   - https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/
@@ -90,4 +84,7 @@ Replace "full_path" with the exact path where you want the ram folder, not inclu
   - https://www.raspberrypi-spy.co.uk/2012/05/install-rpi-gpio-python-library/
 - smbus2: used to read the measurement of the brightness sensor BH1750
   - [https://www.pololu.com/docs/0J73/15.9](https://www.pololu.com/docs/0J73/15.9)
- 
+
+### How to mount a space in ram
+Replace "full_path" with the exact path where you want the ram folder, not including the "[]", also you can change the size in size, actual size is 30mb in the command
+#### `sudo mount -t tmpfs -o rw,size=30m tmpfs [full_path]` 
