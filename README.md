@@ -1,6 +1,8 @@
 # Degree_Project-AquaponicCrop
 
 In this repository you will find the documentation of the degree work "Design and implementation of an automation and control system for aquaponic crops in urban areas".
+![My Image](Some_photos/MG-20221203-WA0044.jpg)
+
 
 The main document is written in Spanish, but the documentation in this repository is in English.
 
