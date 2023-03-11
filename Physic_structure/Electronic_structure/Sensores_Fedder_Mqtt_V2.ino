@@ -1,6 +1,6 @@
 /*********
-  Rui Santos
-  Complete project details at https://randomnerdtutorials.com  
+  Luis Riveros
+  Complete project details at https://github.com/lefros22/Proyecto_de_Grado-CultivoAcuaponico-
 *********/
 //Lybrary comunication
 #include <WiFi.h>
@@ -109,33 +109,24 @@ int16_t readDO(uint32_t voltage_mv, uint8_t temperature_c)
   uint16_t V_saturation = (uint32_t)CAL1_V + (uint32_t)35 * temperature_c - (uint32_t)CAL1_T * 35;
   return (voltage_mv * DO_Table[temperature_c] / V_saturation);
 }
+//----END VARIABLES SENSORES-----
 
-
-//-----FEDDER-----
+//-----FEDDER VARIABLES-----
 #define EN_PIN    13 //enable (CFG6)
 #define STEP_PIN  12 //step
 #define DIR_PIN   27 //direction
 int cant_pasos_fedder=96;
 int fedder_Index=0;
 
+//-----END FEDDER VARIABLES-----
 
-
-
-
-
-
-
-
-
-
-
-//-----Sensors----
+// ------------SENSORS ------------
 void Sense_temperature(){
   sensors.requestTemperatures(); 
   temperature= sensors.getTempCByIndex(0);
   VarSensadas["TEMP"]=temperature;
   }
-
+// ------------Turbity---------------
 void Sense_turbidez(){
   for(TURBIDEZ_Index=0; TURBIDEZ_Index<TURBIDEZ_Samples; TURBIDEZ_Index++){
     TURBIDEZ_analogBuffer[TURBIDEZ_Index] = analogRead(TurbidezSensorPin);    //read the analog value and store into the buffer
@@ -150,7 +141,7 @@ void Sense_turbidez(){
 }
 
 
-
+// ------------TDS---------------
 
 void Sense_TDS(){
   for(TDS_Index=0; TDS_Index<TDS_Samples; TDS_Index++){
@@ -169,7 +160,7 @@ void Sense_TDS(){
   VarSensadas["TDS"]=tdsValue;
   //send msj queque tdsValue;
 }
-
+// ------------PH------------
 void Sense_PH(){
   for(PH_Index=0; PH_Index<PH_Samples; PH_Index++){
     PH_analogBuffer[PH_Index] = analogRead(PHSensorPin);    //read the analog value and store into the buffer
@@ -184,7 +175,7 @@ void Sense_PH(){
   Serial.println(PH_averageVoltage);
   //send msj queque tdsValue;
 }
-// OD
+// ------------OD------------
 void Sense_OD(){
   ADC_Raw = analogRead(ODSensorPin);
   ADC_Voltage = uint32_t(VREF2) * ADC_Raw / ADC_RES;
@@ -193,7 +184,7 @@ void Sense_OD(){
   VarSensadas["OD"]= String(odValue);
 }
 
-
+// ------------FEDDER------------
 void Dosificar_Fedder(){
   for(fedder_Index=0; fedder_Index<cant_pasos_fedder; fedder_Index++){
   //make steps
@@ -204,9 +195,33 @@ void Dosificar_Fedder(){
 
   }
 }
+// ------------END SENSORS------------
 
+// median filtering algorithm
+int getMedianNum(int bArray[], int iFilterLen){
+  int bTab[iFilterLen];
+  for (byte i = 0; i<iFilterLen; i++)
+  bTab[i] = bArray[i];
+  int i, j, bTemp;
+  for (j = 0; j < iFilterLen - 1; j++) {
+    for (i = 0; i < iFilterLen - j - 1; i++) {
+      if (bTab[i] > bTab[i + 1]) {
+        bTemp = bTab[i];
+        bTab[i] = bTab[i + 1];
+        bTab[i + 1] = bTemp;
+      }
+    }
+  }
+  if ((iFilterLen & 1) > 0){
+    bTemp = bTab[(iFilterLen - 1) / 2];
+  }
+  else {
+    bTemp = (bTab[iFilterLen / 2] + bTab[iFilterLen / 2 - 1]) / 2;
+  }
+  return bTemp;
+}
 
-
+// ------------------SETUP BEGIN----------
 void setup() {
   //COMUNICAION MQTT
   Serial.begin(115200);
@@ -313,33 +328,15 @@ void reconnect() {
     }
   }
 }
+// ------------------END SETUP BEGIN----------
+
+//-------------MAIN LOOP--------------------
 void loop() {
   if (!client.connected()) {
     reconnect();
   }
   client.loop();
 }
+//-------------END MAIN LOOP--------------------
 
-// median filtering algorithm
-int getMedianNum(int bArray[], int iFilterLen){
-  int bTab[iFilterLen];
-  for (byte i = 0; i<iFilterLen; i++)
-  bTab[i] = bArray[i];
-  int i, j, bTemp;
-  for (j = 0; j < iFilterLen - 1; j++) {
-    for (i = 0; i < iFilterLen - j - 1; i++) {
-      if (bTab[i] > bTab[i + 1]) {
-        bTemp = bTab[i];
-        bTab[i] = bTab[i + 1];
-        bTab[i + 1] = bTemp;
-      }
-    }
-  }
-  if ((iFilterLen & 1) > 0){
-    bTemp = bTab[(iFilterLen - 1) / 2];
-  }
-  else {
-    bTemp = (bTab[iFilterLen / 2] + bTab[iFilterLen / 2 - 1]) / 2;
-  }
-  return bTemp;
-}
+
