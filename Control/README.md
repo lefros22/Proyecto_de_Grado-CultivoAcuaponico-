@@ -9,6 +9,6 @@ la la la la
 - Data clean notebook
 ## Validations
 - Correlation Matrix Notebook
-- Notebook validation control
+- Excel validation control
 ## Fuzzy
 - Fuzzy Control Notebook
