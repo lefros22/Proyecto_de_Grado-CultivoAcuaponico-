@@ -79,7 +79,7 @@ This folder contains the source code of the management system and the services f
 - paho.mqtt.client: used for suscribe and create a client in python script
 - pyrebase: used for make the conection to bd firebase-realtime
   - https://github.com/thisbejim/Pyrebase
-- pip install DateTime
+- DateTime: used to get the current time and convert between date formats
 - rpi.gpio: used to control the gpios of the raspberry and control the elements of action.
   - https://www.raspberrypi-spy.co.uk/2012/05/install-rpi-gpio-python-library/
 - smbus2: used to read the measurement of the brightness sensor BH1750
