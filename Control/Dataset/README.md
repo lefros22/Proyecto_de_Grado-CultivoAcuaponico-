@@ -1,6 +1,4 @@
-# Physic structure
+# Dataset
+Here you can see the excel files with the data used or generated in the notebooks
 
-In this folder you can find the documentation of:
-- Electric structure
-- Electronic structure
-- Physic assembly
+I consider it important to talk about "stimuli.xlsx" since it contains the combinations of the cycles applied in the data collection stage.
