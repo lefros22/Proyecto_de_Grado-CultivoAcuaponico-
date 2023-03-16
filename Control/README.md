@@ -2,7 +2,7 @@
 Here is located the notebooks used for the development of the project and the data used
 
 ## Description of control system:
-la la la la
+The control system is a predictive control based on neural networks hybrid with fuzzy
 
 ## RN
 - Net training notebook
