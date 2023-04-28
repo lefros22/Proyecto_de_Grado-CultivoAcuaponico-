@@ -26,7 +26,7 @@ The entire project is divided into the following components:
 - Control
 - Management system
 
-Resume of the project:
+### Resume: 
 
 This work presents an automation and control system for aquaponic crops in urban environments by employing a modern multivariable control technique. The prototype reached a level 7 on the Technology Readiness Level (TRL) scale and consists of an aquaponic crop in which water luminosity and temperature are controlled through a hybrid predictive control with fuzzy logic applied to four fundamental control variables: water oxygenation, circulation and aeration, and plant luminosity.
 
