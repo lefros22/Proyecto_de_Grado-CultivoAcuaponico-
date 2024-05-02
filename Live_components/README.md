@@ -5,7 +5,7 @@ Live components of the project are:
 - Plants
 - Bacteria
 
-The photos you can see in the nex link:
+The photos in the nex link:
 
 https://photos.app.goo.gl/17TKQxqVfbyk1X739
 
