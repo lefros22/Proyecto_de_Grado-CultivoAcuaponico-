@@ -2,8 +2,8 @@
 Live components of the project are:
 
 - Fishes
-- Plantas
-- Bacterias
+- Plants
+- Bacteria
 
 The photos you can see in the nex link:
 
