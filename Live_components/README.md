@@ -9,4 +9,4 @@ The photos in the nex link:
 
 https://photos.app.goo.gl/17TKQxqVfbyk1X739
 
-About description you can check the grade project document 
+For description you can check the grade project document 
