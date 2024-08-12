@@ -1,6 +1,6 @@
 # Degree_Project-AquaponicCrop
 
-In this repository you will find the documentation of the degree work "Design and implementation of an automation and control system for aquaponic crops in urban areas".
+In this repository you will find the documentation of "Design and implementation of an automation and control system for aquaponic crops in urban areas".
 
 ![My Image](Some_photos/IMG-20221203-WA0044.jpg)
 
@@ -11,7 +11,7 @@ Authors:
 - Luis Fernando Riveros Orozco
 - Karen Yissel Marin Franco
 
-Thesis director:
+Director:
 - Juan Manuel Nogales
 
 ## Project summary
